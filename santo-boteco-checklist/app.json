@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "santo-boteco-checklist",
+    "slug": "santo-boteco-checklist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/icone.jpg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.carlosrosseti.santobotecochecklist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Permitir que o Santo Boteco acesse sua câmera para tirar a foto de perfil.",
+          "photosPermission": "Permitir que o Santo Boteco acesse suas fotos para escolher a foto de perfil."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "768a26e7-a3a8-4c91-bc82-8ac715ef3688"
+      }
+    }
+  }
+}
